@@ -35,17 +35,39 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
-:root
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+:root {
+   background-color: #e9e3e6;
+}
+
 nav ul {
 list-style: none;
 display: flex;
 gap: 100px;
 margin: 10px;
-padding: 20px;
+padding: 40px;
 justify-content: space-evenly;
+background-color: #fdf4f4;
+}
+nav a 
+{
+text-decoration: ;
+color:black
+}
+nav a:hover {
+text-decoration: underline;
+color: #A04B41
 }
 
+
 body {
+   font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
 display: grid;
 grid-template-areas: 
 "header nav"
@@ -54,14 +76,26 @@ grid-template-areas:
 grid-template-columns: 1fr 1fr;
   grid-template-rows: 120px 1fr 60px;
      padding: 20px;
-     margin: 5px;
+     margin: 10px;
+     content: 50px;
   }
   header{ grid-area: header;
+   background-color: #c3baba;
+   text-align: center;
+   align-content: center;
+   
 
-  }
-  nav{ grid-area: nav;
-  }
-  main{ grid-area: main;
+   
+  
    
   }
-  footer{ grid-area: footer;}
+  nav{ grid-area: nav;
+ 
+   background-color: #c3baba;
+  
+  }
+  main{ grid-area: main;
+  }
+  footer{ grid-area: footer;
+ background-color: ;
+}
