@@ -83,11 +83,8 @@ grid-template-columns: 1fr 1fr;
    background-color: #c3baba;
    text-align: center;
    align-content: center;
-   
-
-   
-  
-   
+   border-top-left-radius: 16px;
+   border-bottom-left-radius: 16px;
   }
   nav{ grid-area: nav;
  
