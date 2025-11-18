@@ -51,7 +51,7 @@ background-color: #fdf4f4;
  border-top-right-radius: 16px;
  border-bottom-right-radius: 16px;
 }
-nav a 
+nav 
 {
 text-decoration: ;
 color:black
@@ -96,14 +96,11 @@ grid-template-columns: 1fr 1fr;
   }
   main{ 
    grid-area: main;
-   justify-items: center;
+   
    text-align: center;
+   justify-content: center;
+   
   
-   }
-   main img{
-      align-content: space-evenly;
-      
-      
    }
   footer{ grid-area: footer;
    background-color: #736f72;
@@ -121,4 +118,6 @@ color: white
 tbody td {
 border: 1px solid #B2B2B2;
 }
+
+
 
