@@ -48,6 +48,8 @@ margin: 10px;
 padding: 40px;
 justify-content: space-evenly;
 background-color: #fdf4f4;
+ border-top-right-radius: 16px;
+ border-bottom-right-radius: 16px;
 }
 nav a 
 {
@@ -83,16 +85,26 @@ grid-template-columns: 1fr 1fr;
    background-color: #c3baba;
    text-align: center;
    align-content: center;
-   border-top-left-radius: 16px;
    border-bottom-left-radius: 16px;
+   border-top-left-radius: 16px;
   }
   nav{ grid-area: nav;
- 
    background-color: #c3baba;
+   border-top-right-radius: 16px;
+   border-bottom-right-radius: 16px;
   
   }
-  main{ grid-area: main;
-  }
+  main{ 
+   grid-area: main;
+   justify-items: center;
+   text-align: left;
+   align-content:stretch;
+   justify-content: space-between;
+   }
   footer{ grid-area: footer;
- background-color: ;
+   background-color: #736f72;
+   text-align:center;
+   align-content: space-evenly;
+   
+ 
 }
