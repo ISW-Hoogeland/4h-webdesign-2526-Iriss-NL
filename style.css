@@ -97,14 +97,28 @@ grid-template-columns: 1fr 1fr;
   main{ 
    grid-area: main;
    justify-items: center;
-   text-align: left;
-   align-content:stretch;
-   justify-content: space-between;
+   text-align: center;
+  
+   }
+   main img{
+      align-content: space-evenly;
+      
+      
    }
   footer{ grid-area: footer;
    background-color: #736f72;
    text-align:center;
    align-content: space-evenly;
-   
- 
 }
+table {
+border-collapse: collapse
+width: auto; 
+}
+thead th {
+background-color: #B2B2B2; 
+color: white
+}
+tbody td {
+border: 1px solid #B2B2B2;
+}
+
